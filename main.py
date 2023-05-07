@@ -1,6 +1,6 @@
-from barcode import EAN13
+from barcode import EAN13 # EAN13 is one of python barcode standard. 
 
-from barcode.writer import ImageWriter 
+from barcode.writer import ImageWriter  # The ImageWriter is used to generate our barcode as .png format. 
 
 num_of_barcodes = int(input("How many Barcodes you Need? "))
 
